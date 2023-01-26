@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^index\.php$ media.php?halaman=1
+Options All -Indexes
+</IfModule>
